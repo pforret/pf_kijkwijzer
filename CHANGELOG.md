@@ -1,7 +1,7 @@
 # Changelog
 
-All notable changes to `package_name` will be documented in this file
+All notable changes to `PhpKijkwijzer` will be documented in this file
 
-## 1.0.0 - init_date by author@email.com
+## 1.0.0 - 2023-10-17 by peter@forret.com
 
 - initial release

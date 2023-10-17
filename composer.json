@@ -1,17 +1,17 @@
 {
-    "name": "author_username/package_name",
+    "name": "pforret/PhpKijkwijzer",
     "version": "1.1.1",
-    "description": "package_description",
+    "description": "PHP Component to retrieve Kijkwijzer ratings for movies",
     "keywords": [
-        "author_username",
-        "package_name"
+        "pforret",
+        "PhpKijkwijzer"
     ],
-    "homepage": "https://github.com/author_username/package_name",
+    "homepage": "https://github.com/pforret/PhpKijkwijzer",
     "license": "MIT",
     "authors": [
         {
-            "name": "author_name",
-            "email": "author@email.com",
+            "name": "pforret",
+            "email": "peter@forret.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "package_namespace\\class_name\\": "src"
+            "Pforret\\PhpKijkwijzer\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "package_namespace\\class_name\\Tests\\": "tests"
+            "Pforret\\PhpKijkwijzer\\Tests\\": "tests"
         }
     },
     "scripts": {
