@@ -1,32 +1,30 @@
-# PHP Component to retrieve Kijkwijzer ratings for movies
+# PHP Component to retrieve Kijkwijzer/Cinecheck ratings for movies
 
 Github: 
-![GitHub tag](https://img.shields.io/github/v/tag/pforret/PhpKijkwijzer)
-![Tests](https://github.com/pforret/PhpKijkwijzer/workflows/Run%20Tests/badge.svg)
-![Psalm](https://github.com/pforret/PhpKijkwijzer/workflows/Detect%20Psalm%20warnings/badge.svg)
-![Styling](https://github.com/pforret/PhpKijkwijzer/workflows/Check%20&%20fix%20styling/badge.svg)
+![GitHub tag](https://img.shields.io/github/v/tag/pforret/pf_kijkwijzer)
+![Tests](https://github.com/pforret/pf_kijkwijzer/workflows/Run%20Tests/badge.svg)
+![Psalm](https://github.com/pforret/pf_kijkwijzer/workflows/Detect%20Psalm%20warnings/badge.svg)
 
 Packagist: 
-[![Packagist Version](https://img.shields.io/packagist/v/pforret/PhpKijkwijzer.svg?style=flat-square)](https://packagist.org/packages/pforret/PhpKijkwijzer)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/pforret/PhpKijkwijzer.svg?style=flat-square)](https://packagist.org/packages/pforret/PhpKijkwijzer)
+[![Packagist Version](https://img.shields.io/packagist/v/pforret/pf_kijkwijzer.svg?style=flat-square)](https://packagist.org/packages/pforret/pf_kijkwijzer)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/pforret/pf_kijkwijzer.svg?style=flat-square)](https://packagist.org/packages/pforret/pf_kijkwijzer)
 
-PHP Component to retrieve Kijkwijzer ratings for movies
-
-	created on 2023-10-17 by peter@forret.com
+![](assets/logo.jpg)
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require pforret/PhpKijkwijzer
+composer require pforret/pf_kijkwijzer
 ```
 
 ## Usage
 
 ``` php
-$obj = new Pforret\PhpKijkwijzer();
-echo $obj->echoPhrase('Hello, pforret!');
+$obj = new Pforret\PfKijkwijzer();
+$movies = $obj->search('Top Gun!');
+$movie = $obj->first('Avatar', 2009, 5, PfKijkwijzer::FILTER_MOVIES);
 ```
 
 ## Testing
