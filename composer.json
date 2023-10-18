@@ -1,6 +1,6 @@
 {
     "name": "pforret/pf_kijkwijzer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "PHP Component to retrieve Kijkwijzer (NL/BE) ratings for movies",
     "keywords": [
         "pforret",
