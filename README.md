@@ -25,6 +25,21 @@ composer require pforret/pf_kijkwijzer
 $obj = new Pforret\PfKijkwijzer();
 $movies = $obj->search('Top Gun!');
 $movie = $obj->first('Avatar', 2009, 5, PfKijkwijzer::FILTER_MOVIES);
+// Pforret\PfKijkwijzer\Format\KijkwijzerResult Object
+// (
+//     [title] => Avatar
+//     [url] => https://www.kijkwijzer.be/film/avatar/
+//     [release_year] => 2009
+//     [type] => Speelfilm
+//     [rating] => Leeftijd 12
+//     [minimum_age] => 12
+//     [warnings] => Array
+//         (
+//             [0] => Geweld
+//             [1] => Angst
+//         )
+// )
+
 ```
 
 ## Testing

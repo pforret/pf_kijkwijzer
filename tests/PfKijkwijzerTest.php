@@ -47,6 +47,7 @@ final class PfKijkwijzerTest extends TestCase
     {
         $obj = new PfKijkwijzer();
         $movie = $obj->first('Avatar', -1, 5, PfKijkwijzer::FILTER_MOVIES);
+        print_r($movie);
         $this->assertNotEmpty($movie);
         $this->assertEquals('Speelfilm', $movie->type);
 
