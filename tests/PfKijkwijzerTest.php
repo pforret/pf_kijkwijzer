@@ -22,7 +22,7 @@ final class PfKijkwijzerTest extends TestCase
         $results = $obj->search('Paw Patrol');
         $this->assertNotEmpty($results);
         $this->assertNotEmpty($results[0]);
-        $this->assertEquals('Alle leeftijden',$results[0]->rating);
+        $this->assertEquals('Alle leeftijden', $results[0]->rating);
     }
 
     public function testSearchInEnglish(): void
@@ -31,7 +31,7 @@ final class PfKijkwijzerTest extends TestCase
         $results = $obj->search('Paw Patrol');
         $this->assertNotEmpty($results);
         $this->assertNotEmpty($results[0]);
-        $this->assertEquals('All ages',$results[0]->rating);
+        $this->assertEquals('All ages', $results[0]->rating);
     }
 
     public function testSearchOnlyMovies(): void
