@@ -1,4 +1,4 @@
-# PHP Component to retrieve Kijkwijzer/Cinecheck ratings for movies
+# Retrieve Kijkwijzer.be/Cinecheck.be movie ratings
 
 Github: 
 ![GitHub tag](https://img.shields.io/github/v/tag/pforret/pf_kijkwijzer)
